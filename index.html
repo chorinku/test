@@ -375,11 +375,11 @@ function showPage(n){
   const c=document.getElementById("content");
   // 각 탭마다 제목과 설명
   const tabInfo = {
-    1: {title:"오리지널", desc:"말 그대로 아무런 첨가물 없는 기본"},
+    1: {title:"오리지널", desc:"기본"},
     2: {title:"세계 이전", desc:"오리지널 과거<br>ㅍㅍ^^"},
     3: {title:"하드모드", desc:"다른 세계선<br>뒤틀렸다"},
-    4: {title:"잡탕", desc:"망상은 충분하나 따로 분류하기엔 연성이 적음"},
-    5: {title:"전체 모음", desc:"출처 표기용"},
+    4: {title:"잡탕", desc:"따로 분류하기엔 연성이 적음"},
+    5: {title:"받은 것", desc:"출처 표기용"},
   };
 
   let html = `<h1>${tabInfo[n].title}</h1><p>${tabInfo[n].desc}</p><div class="gallery">`;
